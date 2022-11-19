@@ -115,13 +115,37 @@ body {
   transition-delay: 0.75s;
 }
 /*CONFIGURANDO CAIXA DE TEXTO */
+.container-inputs{
+    display: block;
+
+}
+input {
+    all: unset;
+  }
+.container-inputs input{
+   
+    position: relative;
+    bottom: 5px;
+    width: 50%;
+    height: 30px;
+    border-color: #000000;
+    font-size: 30px;
+}
+.container-inputs input:focus{
+border:2px solid #000000;
+}
+.inputs{
+margin: 20px 0 20px 0;
+font-size: 50px;
+}
 .title {
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 .Item-login h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 50px;
+  font-size: 100px;
   line-height: 20px;
   font-weight: 100;
   margin: 10px;

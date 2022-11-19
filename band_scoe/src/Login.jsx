@@ -18,7 +18,7 @@ function Login() {
 <div className="line">
 
 </div>
-        <div >
+        <div  className="container-inputs">
 
           <div className="inputs">
             <label>Nome: </label>
