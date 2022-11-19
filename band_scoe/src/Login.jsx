@@ -27,7 +27,7 @@ function Login() {
 
           <div className="inputs" >
             <label>Senha: </label>
-            <input type="text" />
+            <input type="password" />
           </div>
 
 
