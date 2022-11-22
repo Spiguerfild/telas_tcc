@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Login.css";
 
 function Login() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0); exemplo
 
   return (
     <div className="container-centralizador">
@@ -15,10 +15,10 @@ function Login() {
         <div className="title">
           <h2>Login</h2>
         </div>
-<div className="line">
+        <div className="line">
 
-</div>
-        <div  className="container-inputs">
+        </div>
+        <div className="container-inputs">
 
           <div className="inputs">
             <label>Nome: </label>
@@ -33,7 +33,19 @@ function Login() {
 
         </div>
 
+
+        <div>
+
+          <div className="btns-login" >
+            <button className="btn-login">✔ Logar</button>
+            <button className="btn-login">🗙 Cancelar</button>
+          </div>
+
+
+        </div>
       </div>
+
+
     </div>
   );
 }

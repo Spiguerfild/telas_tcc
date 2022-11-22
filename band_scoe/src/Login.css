@@ -24,7 +24,7 @@ body {
 .Card-login {
   width: 600px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   background-color: rgba(150, 150, 150, 0);
   border-radius: 5px;
   display: flex;
@@ -117,7 +117,7 @@ body {
 /*CONFIGURANDO CAIXA DE TEXTO */
 .container-inputs{
     display: block;
-
+color: #000000;
 }
 input {
     all: unset;
@@ -126,7 +126,7 @@ input {
    
     position: relative;
     bottom: 5px;
-    width: 50%;
+    width: 55%;
     height: 30px;
     border-color: #000000;
     font-size: 30px;
@@ -134,14 +134,20 @@ input {
 .container-inputs input:focus{
 border:2px solid #000000;
 }
+.container-inputs input:hover{
+  border: 2px solid white;
+  color: white;
+  transition: .7s;
+}
 .inputs{
 margin: 20px 0 20px 0;
 font-size: 50px;
 text-align: left;
-
+padding:0 30px 0 60px ;
 }
 .inputs input{
   padding-left: 10px;
+  border: 5px  solid transparent;
 }
 .title {
   margin-bottom: 50px;
@@ -156,4 +162,28 @@ text-align: left;
   margin: 10px;
   padding-bottom: 25px;
  
+}
+/*BTNS LOGIN*/
+
+.btns-login{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 13%;
+}
+.btn-login{
+  margin: 0 15px 0 15px;
+font-size: 18px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  
+}
+.btn-login:hover {
+  color: white;
+  transition: .7s;
+  border: 3px solid white;
+  font-size: 16px;
+}
+.inputs:hover{
+  color: white;
+  transition: .7s;
 }
