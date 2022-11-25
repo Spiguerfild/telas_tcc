@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.container {
+  width: 600px;
+  height: 250px;
+
+}
+.block {
+  background: linear-gradient(to right, rgb(0, 238, 255), rgb(77, 6, 241));
+  border-radius: 16px;
+  padding: 5px 15px 5px 15px;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
