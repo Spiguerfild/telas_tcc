@@ -4,6 +4,8 @@ body {
 
 h5,p {
     margin: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+"Lucida Sans", Arial, sans-serif;
 }
 
 .containeri {
@@ -24,7 +26,45 @@ padding: 30px;
 }
 .header h2{
     text-shadow: rgb(255, 255, 254) 1px 0 10px;
+    font-size: 60px;
 }
 .corpo{
     width: 80%;
+}
+.corpo-musicas{
+    text-shadow: rgb(255, 255, 254) 1px 0 10px;
+    color: aliceblue;
+    width: 80%;
+ display: flex;
+ flex-direction:column ;
+    align-items: flex-start;
+    margin: 25px 0 55px 0;
+}
+.corpo-musicas h5{
+    padding-top: 20px;
+    
+    border-bottom:1px solid white ;
+}
+.footer-escala-aberta{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+border-top: 2px solid rgb(0, 225, 255);
+border-right:2px solid rgb(0, 225, 255) ;
+border-left:2px solid rgb(0, 225, 255) ;
+border-radius: 7px;
+}
+.footer-escala-aberta h2{
+    color: aliceblue;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-shadow: rgb(255, 255, 254) 1px 0 10px;
+}
+.footer-escala-aberta p{
+    color: aliceblue;
+    padding-bottom: 20px;
+    font-size:  20px; 
+    border-bottom: .5px solid white;
 }
