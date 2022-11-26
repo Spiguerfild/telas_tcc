@@ -1,6 +1,7 @@
 import "./BlocoEscala.css";
 
 import band_ft from "./assets/Band-Image.png";
+import guitar_png from './assets/purepng.com-electric-guitarelectric-guitarsteelstringselectrical-1421526493470zht6x.png'
 function BlocoEscala() {
   return (
     <div className="container">
@@ -11,7 +12,7 @@ function BlocoEscala() {
 
         <div className="bottom-block">
           <div className="lado-esquerdo">
-            <img className="foto-esquerda" src={band_ft} width={200} />
+            <img className="foto-esquerda" src={guitar_png} width={150} />
           </div>
 
           <div className="lado-direito">

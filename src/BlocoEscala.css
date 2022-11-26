@@ -31,21 +31,30 @@ margin: 100px;
 
 .foto-esquerda{
 filter: invert(1);
+transform: rotate(350deg);
+margin: 0 0 10px 10px;
 }
 
 .block:hover{
 
    box-shadow: 0 0 10px #0e72a1, 0 0 15px #1f8dc0, 0 0 1px rgb(120, 190, 255);  
     background-color: #000000bd ;
-    transition: .4s;
-    
+    transition: .2s;
+    position: relative;
+    top: -5px;
+}
+.top-block h3{
+font-size: 40px;
 }
 .bottom-block{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .lado-direito{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.lado-direito h5{
+  font-size:  20px;
 }
