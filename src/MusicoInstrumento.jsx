@@ -8,7 +8,7 @@ function MusicoInstrumento() {
 
                 <select name="select" id="nomes-musicos">
                     <option value="nome">Luis</option>
-                    <option value="nome">Joao</option>
+                    <option value="nome">Caio</option>
                     <option value="nome">pedro</option>
                     <option value="nome">jhon</option>
                 </select>
@@ -22,7 +22,7 @@ function MusicoInstrumento() {
                 </select>
             </div>
             <div className='botoes'>
-<button>X</button>
+                <button>X</button>
             </div>
         </div>
     )

@@ -1,26 +1,61 @@
 #nomes-musicos{
-    background-color: rgb(39, 39, 39);
-    border: 1px solid #004758;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid #004758;
     width: 200px;
     height: 30px;
     border-radius: 5px;
+    cursor: pointer;
+    text-shadow: rgb(255, 255, 254) 1px 0 10px;
+}
+#nomes-musicos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: .4s;
+   
 }
 #nomes-instrumentos{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
     border: 1px solid #004758;
     width: 200px;
     height: 30px;
     border-radius: 5px;
+    cursor: pointer;
+    text-shadow: rgb(255, 255, 254) 1px 0 10px;
+}
+#nomes-instrumentos:hover{
+    background-color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+    transition: .4s;
 }
 .selects{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 300px;
-    height: 80px;
-    border: 1px solid #00ccff;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #00ccff;
+    margin : 10px 0 10px 0
 }
+
 .div-musico-instrumento{
     display: flex;
-    width: 1000px;
+    width: 100%;
+    align-items: center;
+}
+.botoes button{
+    margin-left: 15px;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border: 3px solid#00ccff ;
+}
+.botoes button:hover{
+    border: 3px solid#00ccff ;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: .4s;
+    cursor: pointer;
 }

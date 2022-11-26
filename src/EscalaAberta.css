@@ -15,10 +15,16 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 align-items: center;
-
+padding: 30px;
 }
 .header{
     color: aliceblue;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 "Lucida Sans", Arial, sans-serif;
+}
+.header h2{
+    text-shadow: rgb(255, 255, 254) 1px 0 10px;
+}
+.corpo{
+    width: 80%;
 }

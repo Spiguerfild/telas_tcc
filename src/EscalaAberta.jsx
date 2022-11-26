@@ -1,5 +1,5 @@
 import './EscalaAberta.css'
-
+import MusicoInstrumento from './MusicoInstrumento'
 function EscalaAberta() {
     return (
         <div className="containeri">
@@ -9,9 +9,10 @@ function EscalaAberta() {
 
 
             <div className='corpo'>
-<div>
-
-</div>
+                <MusicoInstrumento />
+                <MusicoInstrumento />
+                <MusicoInstrumento />
+                <MusicoInstrumento />
             </div>
 
             <div className='corpo-musicas'>
