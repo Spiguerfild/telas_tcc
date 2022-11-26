@@ -1,0 +1,26 @@
+#nomes-musicos{
+    background-color: rgb(39, 39, 39);
+    border: 1px solid #004758;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+#nomes-instrumentos{
+    background-color: rgb(39, 39, 39);
+    border: 1px solid #004758;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.selects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border: 1px solid #00ccff;
+}
+.div-musico-instrumento{
+    display: flex;
+    width: 1000px;
+}
