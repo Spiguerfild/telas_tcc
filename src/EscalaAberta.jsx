@@ -13,7 +13,9 @@ function EscalaAberta() {
         <MusicoInstrumento />
         <MusicoInstrumento />
       </div>
-
+<div className="botao-add">
+<button>+</button>
+</div>
       <div className="corpo-musicas">
         <h5>Musica 1 - autor</h5>
         <h5>Musica 2 - autor</h5>
