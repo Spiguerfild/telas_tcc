@@ -39,6 +39,10 @@ function EscalaAberta() {
           <p> 17:30</p>
         </div>
       </div>
+      <div className="btns-login-escala-aberta" >
+            <button className="btn-login">✔ Confirmar</button>
+            <button className="btn-login">🗙 Cancelar</button>
+          </div>
     </div>
   );
 }
