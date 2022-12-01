@@ -1,6 +1,6 @@
 import "./BlocoEscala.css";
 
-import band_ft from "./assets/Band-Image.png";
+
 import guitar_png from './assets/purepng.com-electric-guitarelectric-guitarsteelstringselectrical-1421526493470zht6x.png'
 function BlocoEscala() {
   return (
